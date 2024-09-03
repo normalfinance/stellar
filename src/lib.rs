@@ -3,9 +3,9 @@
 mod admin;
 mod allowance;
 mod balance;
-mod contract;
+mod token_contract;
 mod metadata;
 mod storage_types;
-mod test;
+mod index_token;
 
-pub use crate::contract::TokenClient;
+pub use crate::index_token::IndexTokenClient;
